@@ -3,6 +3,7 @@
 height: 400px;
    margin-left: 20px;
 }
+
 .child3-a {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -63,31 +64,6 @@ height: 400px;
 .trip{
     margin-top: 20px;
 margin-left: 30px;
-}
-
-.top{
-    height: 550px;
-    width: 400px;
-    margin-left: 270px;
-    margin-top: 20px;
-}
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    .top{
-        height: 600px;
-        width: 400px;
-        border: solid grey 2px;
-        margin-left: 270px;
-        margin-top: 20px;
-    }
-}
-@media screen and (min-device-width : 360px) and (max-device-width : 664px) {
-    .top{
-        height: 600px;
-        width: 400px;
-        border: solid gray 2px;
-        margin-left: 270px;
-        margin-top: 20px;
-    }
 }
 .fa-arrow-circle-left {
     color: #e74c3c;

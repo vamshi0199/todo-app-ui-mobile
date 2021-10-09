@@ -1,3 +1,12 @@
+.top1{
+    display: flex;
+}
+@media screen and (min-width:360px) and (max-width:640px) {
+    .top1{
+        display: flex;
+    }
+}
+
 .main1-body {
     width: 300px;
 height: 400px;
@@ -72,24 +81,7 @@ margin-left: 30px;
     margin-left: 0%;
     margin-top: 20px;
 }
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    .top{
-        height: 600px;
-        width: 400px;
-        border: solid grey 2px;
-        margin-left: 270px;
-        margin-top: 20px;
-    }
-}
-@media screen and (min-device-width : 360px) and (max-device-width : 664px) {
-    .top{
-        height: 600px;
-        width: 400px;
-        border: solid gray 2px;
-        margin-left: 270px;
-        margin-top: 20px;
-    }
-}
+
 .fa-arrow-circle-left {
     color: #e74c3c;
 }
@@ -129,32 +121,7 @@ h1{
     left: 45%;
     transform: translate(-50%, -50%);
 }
-@media screen and  (min-device-width : 768px) and (max-device-width : 1024px) {
-    .blur-box-main{
-        height: 250px;
-        width: 385px;
-        margin: auto;
-        z-index: 3;
-        background-color: white;
-        position: absolute;
-        top: 50%;
-        left: 51%;
-        transform: translate(-50%, -50%);
-    }
-}
-@media screen and  (min-device-width : 360px) and (max-device-width : 640px) {
-    .blur-box-main{
-        height: 250px;
-        width: 385px;
-        margin: auto;
-        z-index: 3;
-        background-color: white;
-        position: absolute;
-        top: 50%;
-        left: 51%;
-        transform: translate(-50%, -50%);
-    }
-}
+
 .container-body-in {
     border: #e74c3c solid 1px;
     border-radius: 10px;
@@ -192,28 +159,4 @@ h1{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-}
-.top1{
-    height: 600px;
-    width: 404px;
-    margin-left: 29%;
-    margin-top: 20px;
-}
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    .top1{
-        border: solid gray 1px;
-    height: 600px;
-    width: 404px;
-    margin-left: 29%;
-    margin-top: 20px;
-    }
-}
-@media screen and (min-device-width : 360px) and (max-device-width : 640px) {
-    .top1{
-        border: solid gray 1px;
-    height: 600px;
-    width: 404px;
-    margin-left: 29%;
-    margin-top: 20px;
-    }
 }
