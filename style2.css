@@ -93,11 +93,13 @@ h1{
 @media screen and  (min-width:360px) and (max-width:640px) {
     .main1-body{
         display: inline-block;
+        margin-left: 2px;
         
     }
     .trip{
        width: 100%;
         display: inline-block;
+        margin-left: 2px;
     }
     
 }
