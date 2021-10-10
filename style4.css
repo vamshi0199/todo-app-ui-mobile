@@ -1,12 +1,6 @@
 .top1{
     display: flex;
 }
-@media screen and (min-width:360px) and (max-width:640px) {
-    .top1{
-        display: flex;
-    }
-}
-
 .main1-body {
     width: 300px;
 height: 400px;
@@ -77,7 +71,7 @@ margin-left: 30px;
 .top{
     height: 550px;
     width: 400px;
-    border: solid gray 2px;
+    
     margin-left: 0%;
     margin-top: 20px;
 }
@@ -109,6 +103,8 @@ h1{
 }
 .blur{
     filter: blur(6px);
+    margin-left: 380px;
+    margin-top: 30px;
 }
 .blur-box-main {
     height: 250px;
@@ -159,4 +155,32 @@ h1{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+@media screen and (min-width:360px) and (max-width:640px) {
+    .blur{
+        filter: blur(6px);
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .blur-box-main {
+        height: 250px;
+        width: 250px;
+        margin: auto;
+        z-index: 3;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+    }
+    .main1-body {
+        width: 250px;
+    height: 400px;
+       margin-left: 20px;
+    }
+    .trip{
+        margin-top: 27px;
+    margin-left: 12px;
+    }
+    
 }

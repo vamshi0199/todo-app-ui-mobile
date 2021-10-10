@@ -1,7 +1,7 @@
 .main1-body {
     width: 300px;
 height: 400px;
-   margin-left: 20px;
+   margin-left: 500px;
 }
 
 .child3-a {
@@ -62,8 +62,8 @@ height: 400px;
     text-decoration: none;
 }
 .trip{
-    margin-top: 20px;
-margin-left: 30px;
+    margin-top: 60px;
+margin-left: 500px;
 }
 .fa-arrow-circle-left {
     color: #e74c3c;
@@ -89,4 +89,15 @@ margin-left: 30px;
 h1{
     margin-top: -42px;
     margin-left: 60px;
+}
+@media screen and  (min-width:360px) and (max-width:640px) {
+    .main1-body{
+        display: inline-block;
+        
+    }
+    .trip{
+       width: 100%;
+        display: inline-block;
+    }
+    
 }
